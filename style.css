@@ -1,1 +1,55 @@
+/* Reset some default styles for cross-browser consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    margin: 2em;
+}
+
+p {
+    color: #555;
+}
+
+.projects-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects-list li {
+    margin-bottom: 1em;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #007bff;
+    color: white;
+}
 
